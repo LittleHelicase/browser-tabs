@@ -24,11 +24,10 @@ function firefoxProfileTabs(){
   return profileTabs;
 }
 
-module.exports = function(){
-  var chrome = require("./build/Release/chromeTabs");
-  
-  return {
+
+var chrome = require("./build/Release/chromeTabs");
+
+module.exports = {
     chrome: chrome.getOpenTabs,
     firefox: firefoxProfileTabs
   }
-}
