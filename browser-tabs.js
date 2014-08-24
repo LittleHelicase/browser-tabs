@@ -28,7 +28,7 @@ module.exports = function(){
   var chrome = require("./build/Release/chromeTabs");
   
   return {
-    chrome: chrome.getOpenTabs(),
-    firefox: firefoxProfileTabs()
+    chrome: chrome.getOpenTabs,
+    firefox: firefoxProfileTabs
   }
 }
