@@ -1,0 +1,32 @@
+{
+  "name": "browser-tabs",
+  "version": "0.0.1",
+  "description": "Gets the open Tabs of Browsers",
+  "main": "browser-tabs.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LittleHelicase/browser-tabs.git"
+  },
+  "keywords": [
+    "Browser",
+    "Tabs"
+  ],
+  "author": "Maximilian Klein",
+  "license": "LGPL",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/LittleHelicase/browser-tabs/issues"
+  },
+  "homepage": "https://github.com/LittleHelicase/browser-tabs",
+  "dependencies": {
+    "pwuid": "^1.0.0",
+    "underscore": "^1.6.0"
+  }
+}

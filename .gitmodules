@@ -1,0 +1,3 @@
+[submodule "chromeTabs/SNSS-Parser"]
+	path = chromeTabs/SNSS-Parser
+	url = git@github.com:LkSky/SNSS-Parser.git
