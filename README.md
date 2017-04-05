@@ -1,7 +1,7 @@
 browser-tabs
 ============
 
-Node module that lists open Browser Tabs. Currently supports Firefox and Chrome.
+**This package is currently not working and I'm not able to work on it.**
 
 ## Installation
 
